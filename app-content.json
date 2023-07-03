@@ -1,0 +1,646 @@
+{
+	"headernav": {
+		"icon": "Menu",
+		
+            "items": {
+                "Servicios": {
+                    "Diseño de producto": {
+                        "UX research": {"id": "1",
+                        "path": "",
+                        "label": "UX research"},
+                        "Diseño de interfaz": {"id": "2",
+                        "path": "",
+                        "label": "Diseño de interfaz"},
+                        "Sistema de diseño UI": {"id": "3",
+                        "path": "",
+                        "label": "Sistema de diseño UI"},
+                        "Wireframing": {"id": "4",
+                        "path": "",
+                        "label": "Wireframing"},
+                        "Prototipado": {"id": "5",
+                        "path": "",
+                        "label": "Prototipado"},
+                        "Test de usabilidad": {"id": "6",
+                        "path": "",
+                        "label": "Test de usabilidad"}
+                       
+                    },
+                    "Ingenieria de software": {
+                        "Maquetacion": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Maquetacion"
+                        },
+                        "Gestion de APIs": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Gestion de APIs"
+                        },
+                        "Sistema de documentacion": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Sistema de documentacion"
+                        },
+                        "Autenticación en dos pasos": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Autenticación en dos pasos"
+                        },
+                        "Aplicaciones PWA": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Aplicaciones PWA"
+                        },
+                        "Integracion de metodos de pago": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Integracion de metodos de pago"
+                        },
+                        "SEO": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "SEO"
+                        }
+                    },   
+                    "Ingenieria de datos y BI": {
+                        "DataWarehousing": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "DataWarehousing"
+                        },
+                        "Integración servicios de AWS": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Integración servicios de AWS"
+                        },
+                        "Integración de servicios de GCP": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Integración de servicios de GCP"
+                        },
+                        "Consultoría en BI": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Consultoría en BI"
+                        },
+                        "ETL management": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "ETL management"
+                        },
+                        "Migraciones a la nube": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Migraciones a la nube"
+                        },
+                        "Data governance": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Data governance"
+                        },
+                        "Dashboards": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Dashboards"
+                        },
+                
+                "Nosotros": {
+                            "id": "some_id",
+                            "path": "some_path",
+                            "label": "Nosotros"
+                },
+                "Empleos": {
+                    "id": "some_id",
+                    "path": "some_path",
+                    "label": "Empleos"
+        
+                }
+            }
+                }
+        
+	}
+},
+	"footernav": {
+		"items": [
+			{
+				"id": "1",
+				"path": "/about",
+				"label": "Sobre nosotros"
+			},
+			{
+				"id": "2",
+				"path": "/faq",
+				"label": "Centro de Ayuda"
+			},
+			{
+				"id": "3",
+				"path": "#",
+				"label": "Aviso de Privacidad"
+			},
+			{
+				"id": "4",
+				"path": "#",
+				"label": "Términos y Condiciones"
+			}
+		]
+	},
+	"seo": {
+		"home": {
+			"title": "Tus Usuarios no quieren, iniciar sesion ",
+			"description": "Tus usarios quieren resolver un problema, no seguir tus procesos",
+			"url": "/"
+		},
+		"diseno": {
+			"title": "",
+			"description": "",
+			"url": "/diseno"
+		},
+		"software": {
+			"title": "",
+			"description": "",
+			"url": "/software"
+		},
+		"datos": {
+			"title": "",
+			"description": "",
+			"url": "/datos"
+		}
+	},
+	"cta": {
+		"title": "Comienza a digitalizar tu negocio hoy mismo!",
+		"text": "Pre-regístrate para acceder a nuestra Beta totalmente gratis y obtén beneficios adicionales.",
+		"buttontext": "Quiero pre-regístrarme",
+		"image": "woman-with-pc"
+	},
+	"modal": {
+		"text": "Al pre-registrarte podrás acceder a la versión de prueba de Umoob y Umoob Business en su pre-lanzamiento. Recibirás un correo con un mes de anticipación con más información.",
+		"image": "man-with-calendar",
+		"placeholder": "Ingresa tu correo electrónico",
+		"buttontext": "Pre-registrarme"
+	},
+	"accordion": {
+		"title": "Resuelve tus dudas sobre nuestros productos",
+		"items": [
+			{
+				"id": "1",
+				"title": "¿Son dos aplicaciones separadas o solo una?",
+				"text": {
+					"firstParagraph": "Son dos aplicaciones por separado.",
+					"list": [
+						{
+							"id": "1",
+							"subtext": "Umoob es la aplicación que usan los clientes que asisten al gimnasio/escuela deportiva."
+						},
+						{
+							"id": "2",
+							"subtext": "Umoob Business es la aplicación que utilizan los entrenadores y empleados para administrar el negocio."
+						}
+					]
+				}
+			},
+			{
+				"id": "2",
+				"title": "¿Usar Umoob tiene algún costo para los clientes del gimnasio/escuela deportiva?",
+				"text": {
+					"firstParagraph": "No, la aplicación de Umoob es completamente gratis. Solo necesitas crear una cuenta para acceder y disfrutar de todas sus funciones."
+				}
+			},
+			{
+				"id": "3",
+				"title": "¿Si quiero utilizar Umoob Business en mi negocio necesito cumplir algún pre-requisito?",
+				"text": {
+					"firstParagraph": "No es necesario cumplir ningún pre-requisito. Cualquier tipo de negocio deportivo puede ser registrado y operado con la plataforma."
+				}
+			},
+			{
+				"id": "4",
+				"title": "¿Para que países está disponible Umoob Business?",
+				"text": {
+					"firstParagraph": "La primera versión estará disponible para México, Colombia, Perú y Argentina."
+				}
+			},
+			{
+				"id": "5",
+				"title": "Si soy el dueño, ¿puedo registrar y operar varios negocios con una sola cuenta?",
+				"text": {
+					"firstParagraph": "Durante la primera versión solo podrás registrar un negocio por cuenta, pero es una funcionalidad que estará disponible en la siguiente versión."
+				}
+			},
+			{
+				"id": "6",
+				"title": "Si soy un entrenador que trabaja en un gimnasio donde no usan Umoob Business, ¿Puedo crearme una cuenta y atender yo solo a los clientes?",
+				"text": {
+					"firstParagraph": "No es posible. Al momento de registrar una cuenta tipo entrenador se te pedirá que ingreses el ID del negocio donde trabajas, si este negocio no está registrado en la plataforma no podrás crear tu cuenta. ",
+					"secondParagraph": "En este caso te recomendararemos hablar con tus superiores y comentarles si es posible que registren el negocio en Umoob Business. De esta manera podrías ingresar el ID del negocio para crear tu cuenta de entrenador."
+				}
+			},
+			{
+				"id": "7",
+				"title": "¿Cuáles son los precios para utilizar Umoob Business en mi negocio?",
+				"text": {
+					"firstParagraph": "Durante la primera versión no se cobrará ningún costo por la utilización de la plataforma. En siguientes versiones tendremos la opción gratuita y de pago con mayores funcionalidades."
+				}
+			},
+			{
+				"id": "8",
+				"title": "¿Cuántos empleados puedo registrar como máximo en mi negocio?",
+				"text": {
+					"firstParagraph": "Durante la primera versión se podrá registrar hasta un máximo de 20 empleados por negocio."
+				}
+			},
+			{
+				"id": "9",
+				"title": "¿Todos mis empleados tienen que instalar la aplicación?",
+				"text": {
+					"firstParagraph": "Sí, todos los empleados deben crear una cuenta en Umoob Business ya que desde ahí accederán a todas las herramientas de operación del negocio (inventario, check-in, horarios, ventas, etc)."
+				}
+			},
+			{
+				"id": "10",
+				"title": "Si soy el dueño de una escuela deportiva donde damos clases en canchas, ¿puedo registrar mi negocio en Umoob Business?",
+				"text": {
+					"firstParagraph": "Sí. Cualquier tipo de negocio donde se impartan clases deportivas puede ser registrado en la plataforma. Al poner la ubicación del negocio debe indicar la dirección y el horario donde se imparten las clases (ya sea un parque, canchas, centro deportivo, etc)."
+				}
+			},
+			{
+				"id": "11",
+				"title": "Si soy una persona que lleva un equipo deportivo en una universidad, ¿puedo registrar el club en Umoob Business?",
+				"text": {
+					"firstParagraph": "Sí. Debes dejar una aclaración en la descripción de tu negocio si únicamente se admiten alumnos de la universidad o si estará abierto para personas externas al campus."
+				}
+			},
+			{
+				"id": "12",
+				"title": "¿Se puede reservar cupos para asistir a clases impartidas dentro del gimnasio?",
+				"text": {
+					"firstParagraph": "Sí, los clientes del gimnasio podrán registrarse a las clases que se impartan. También es posible darse de baja de la clase en caso de que los clientes ya no deseen asistir."
+				}
+			}
+		]
+	},
+	"home": {
+		"banner": {
+			"title": "La mejor tecnología deportiva para cualquier tamaño de negocio",
+			"image": "https://umooob-dev.s3.amazonaws.com/media/PhonesMockup_qvhlgl.png",
+			"placeholder": "Pre-regístrate para probar la beta",
+			"buttontext": "Pre-regístrate"
+		},
+		"features": {
+			"title": "Mejora la propuesta de valor de tus clientes",
+			"items": [
+				{
+					"id": "1",
+					"icon": "Analytics",
+					"title": "Centraliza todas tus operaciones",
+					"text": "Inventarios, horarios, ventas, medición de indicadores, rutinas, clases, etc. Todo en una misma plataforma digital fácil de usar"
+				},
+				{
+					"id": "2",
+					"icon": "Alumnos",
+					"title": "Más servicios para tus usuarios",
+					"text": "A través de nuestra aplicación tus clientes podrán acceder a sus rutinas, ejercicios, clases, planes y chats con sus entrenadores."
+				},
+				{
+					"id": "3",
+					"icon": "Home",
+					"title": "Nuevos usuarios diariamente",
+					"text": "Publica los servicios que ofreces a través de nuestro Marketplace donde recibirás visitas constantemente de nuevos usuarios."
+				}
+			]
+		},
+		"statistics": {
+			"items": [
+				{
+					"id": "1",
+					"title": "90%",
+					"text": "De clientes leen reseñas online antes de visitar un negocio.",
+					"caption": "Fuente: invespcro.com"
+				},
+				{
+					"id": "2",
+					"title": "88%",
+					"text": "De clientes le dan el mismo peso las reseñas online que a las recomendaciones personales.",
+					"caption": "Fuente: searchengineland.com"
+				}
+			]
+		},
+		"attributes": {
+			"title": "Escala tu negocio deportivo",
+			"image": "https://umooob-dev.s3.amazonaws.com/media/unsplash_81fRHbVliQI.jpg",
+			"items": [
+				{
+					"id": "1",
+					"title": "No más rutinas impresas",
+					"text": "Documenta y administra las rutinas de todos los clientes desde la plataforma. Los entrenadores podrán actualizarlas a medida que los clientes lo requieran."
+				},
+				{
+					"id": "2",
+					"title": "Lo que no se mide no mejora",
+					"text": "Consulta los tableros con tus indicadores más importantes y las reseñas que dejan tus clientes sobre tus entrenadores e instalaciones."
+				},
+				{
+					"id": "3",
+					"title": "Evolucionar para competir",
+					"text": "Los grandes cadenas incorporan tecnología en sus propuestas de valor. Utiliza nuestra plataforma sin importar el tamaño de tu negocio."
+				}
+			]
+		},
+		"firststeps": {
+			"title": "¿Cómo comenzar?",
+			"image": "https://umooob-dev.s3.amazonaws.com/media/unsplash_81fRHbVliQI2.jpg",
+			"alt": "sport woman with towel, headphones and phone",
+			"items": [
+				{
+					"id": "1",
+					"title": "Crea tu cuenta",
+					"text": "Regístrate en Umoob Business y crea el perfil de tu negocio sin ningún costo."
+				},
+				{
+					"id": "2",
+					"title": "Configura tu negocio",
+					"text": "Edita el perfil de tu negocio de manera que se atractivo para nuevos usuarios. Agrega a tus empleados y clientes."
+				},
+				{
+					"id": "3",
+					"title": "Comienza a operar",
+					"text": "Brinda servicios digitales de primer nivel a tus clientes y centraliza tus operaciones en una sola plataforma."
+				}
+			]
+		},
+		"advantages": {
+			"title": "Mejora tus servicios constantemente",
+			"titlemobile": "Mejora tus servicios",
+			"image": "https://umooob-dev.s3.amazonaws.com/media/unsplash_81fRHbVliQI3.jpg",
+			"items": [
+				{
+					"id": "1",
+					"title": "Recibe retroalimentación efectiva",
+					"text": "Tus usuarios podrán puntuar y comentar sobre los servicios que ofreces y los entrenadores que tengan asignados."
+				},
+				{
+					"id": "2",
+					"title": "Usa altos estándares de seguridad",
+					"text": "Todas las cuentas registradas en nuestra plataforma cuentan con autenticación de dos pasos (2FA) por medio de SMS y correo electrónico."
+				}
+			]
+		}
+	},
+	"athletes": {
+		"banner": {
+			"title": "Encuentra el lugar perfecto para entrenar sin importar tu presupuesto",
+			"image": "umoob-isotype",
+			"placeholder": "Pre-regístrate para probar la beta",
+			"buttontext": "Pre-regístrate"
+		},
+		"features": {
+			"title": "Vive un ecosistema digital deportivo completo",
+			"items": [
+				{
+					"id": "1",
+					"icon": "MoneyPrice",
+					"title": "Compara precios de diversos centros deportivos",
+					"text": "Ten acceso a información como precios, clases, instalaciones y opiniones de otros usuarios de distintos centros deportivos cerca de ti."
+				},
+				{
+					"id": "2",
+					"icon": "AyudanosAMejorar",
+					"title": "Seguimiento de tus rutinas y ejercicios con alta personalización",
+					"text": "Recibe tu plan de entrenamiento directamente a tu perfil, donde podrás encontrar todas las rutinas y ejercicios que tengas asignados."
+				},
+				{
+					"id": "3",
+					"icon": "QRCode",
+					"title": "Acceso global usando código QR desde tu celular",
+					"text": "Haz check-in o check-out de manera rápida y sencilla con tu celular en cualquiera de tus centros deportivos."
+				}
+			]
+		},
+		"cta": {
+			"title": "¿Quiénes somos?",
+			"text": "Umoob es un Marketplace de servicios deportivos enfocado en dar mayor visibilidad a los negocios deportivos de alto valor agregado en tu ciudad y mejorar la experiencia de sus clientes.",
+			"buttonText": "Quiero pre-registrarme",
+			"image": "personal-trainer"
+		},
+		"firststeps": {
+			"title": "¿Cómo funciona?",
+			"image": "https://umooob-dev.s3.amazonaws.com/media/PhonesMockup1_znewow.png",
+			"alt": "two phones mockups",
+			"items": [
+				{
+					"id": "1",
+					"title": "¿Cómo funciona?",
+					"text": "Explora a nuestro marketplace y encuentra el lugar perfecto para entrenar."
+				},
+				{
+					"id": "2",
+					"title": "Descarga la app",
+					"text": "Descarga la app en tu smarthphone y paga tu membrecía de manera online o en efectivo en la recepción del negocio."
+				},
+				{
+					"id": "3",
+					"title": "Mejora tu experiencia",
+					"text": "Disfruta de todos los servicios digitales que Umoob te ofrece y comparte tus reseñas con los demás usuarios."
+				}
+			]
+		},
+		"advantages": {
+			"title": "Ventajas de usar Umoob",
+			"image": "https://umooob-dev.s3.amazonaws.com/media/unsplash_81fRHbVliQI4.jpg",
+			"items": [
+				{
+					"id": "1",
+					"title": "Eventos y ofertas de tu centro deportivo actualizadas",
+					"text": "Entérate de las ofertas y beneficios nuevos ofrece el centro deportivo al que asistes para no perderte ninguna oportunidad de ahorrar."
+				},
+				{
+					"id": "2",
+					"title": "Revisa las opiniones de otros usuarios",
+					"text": "Podrás comentar y dar valoraciones de los centros deportivos a los que hayas asistido así como a los entrenadores con los que has convivido."
+				},
+				{
+					"id": "3",
+					"title": "Altos estándares de Seguridad",
+					"text": "Todas las cuentas registradas en nuestra plataforma cuentan con autenticación de dos pasos por medio de SMS y correo electrónico."
+				},
+				{
+					"id": "4",
+					"title": "Chat directo con tu entrenador",
+					"text": "La convivencia entre cliente - entrenador es muy importante para nosotros por lo que siempre tendrás a tu disposición un chat directo con tus entrenadores a través de nuestra plataforma."
+				}
+			]
+		}
+	},
+	"about": {
+		"banner": {
+			"title": "Queremos que la tecnología sea un pilar fundamental para la industria deportiva",
+			"image": "umoob-isotype",
+			"placeholder": "Pre-regístrate para probar la beta",
+			"buttontext": "Pre-regístrate"
+		},
+		"vision": {
+			"image": "mobile-app-with-woman",
+			"title": "Nuestra visión",
+			"body": [
+				{
+					"id": "1",
+					"text": "En Umoob nos enfocamos en crear soluciones tecnológicas, económicas y escalables para lograr grandes cambios en la calidad de los servicios deportivos en Latinoamérica."
+				},
+				{
+					"id": "2",
+					"text": "Un lugar donde los dueños de negocios deportivos puedan encontrar soluciones rápidas, simples y seguras para escalar su negocio y mejorar sus servicios sin necesidad de una gran inversión."
+				},
+				{
+					"id": "3",
+					"text": "Buscamos que los usuarios puedan acceder a servicios y herramientas digitales de ultima generación al asistir a sus gimnasios o clubes deportivos de toda la vida."
+				}
+			]
+		},
+		"team": {
+			"image": "team-in-table",
+			"title": "El Umoob Team",
+			"body": [
+				{
+					"id": "1",
+					"text": "Somos personas apasionadas por la tecnología y por crear productos que realmente puedan impactar en gran medida a nuestra región."
+				},
+				{
+					"id": "2",
+					"text": "Trabajamos 100% remoto, promovemos el respeto y la clara comunicación entre nosotros. Nos mantenemos aprendiendo constantemente con el fin de no apartarnos del estado del arte."
+				}
+			],
+			"list": [
+				{
+					"id": "1",
+					"title": "Administración",
+					"items": [
+						{
+							"id": "1",
+							"category": "Founders",
+							"members": [
+								{
+									"id": "1",
+									"name": "Jorge Ruíz",
+									"link": "https://www.linkedin.com/in/jorgesrm/"
+								},
+								{
+									"id": "2",
+									"name": "Benjamín Camacho",
+									"link": "https://www.linkedin.com/in/bncamacho/"
+								},
+								{
+									"id": "3",
+									"name": "Karen Rincón",
+									"link": "https://www.linkedin.com/in/karen-rinc%C3%B3n-32842a106/"
+								}
+							]
+						},
+						{
+							"id": "2",
+							"category": "Contaduría",
+							"members": [
+								{
+									"id": "1",
+									"name": "Brenda Mendivel",
+									"link": "https://www.linkedin.com/in/brenda-janelly-mendivil-felix-02353915a/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "2",
+					"title": "Equipo de Producto",
+					"items": [
+						{
+							"id": "1",
+							"category": "UI",
+							"members": [
+								{
+									"id": "1",
+									"name": "Emmanuel García",
+									"link": "https://www.linkedin.com/in/emmaisworking/"
+								},
+								{
+									"id": "2",
+									"name": "Hernán Rivera",
+									"link": "https://www.linkedin.com/in/hernanrv/"
+								},
+								{
+									"id": "3",
+									"name": "Areli Cadenillas",
+									"link": "https://www.linkedin.com/in/areli-cadenillas/"
+								}
+							]
+						},
+						{
+							"id": "2",
+							"category": "UX",
+							"members": [
+								{
+									"id": "1",
+									"name": "Juan Corredor",
+									"link": "https://www.linkedin.com/in/juanunicorn/"
+								}
+							]
+						},
+						{
+							"id": "3",
+							"category": "Marketing",
+							"members": [
+								{
+									"id": "1",
+									"name": "Diana Astete",
+									"link": "https://www.linkedin.com/in/d-linares/"
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "3",
+					"title": "Equipo TI",
+					"items": [
+						{
+							"id": "1",
+							"category": "Frontend",
+							"members": [
+								{
+									"id": "1",
+									"name": "Esteban Ladino",
+									"link": "https://www.linkedin.com/in/esteban-ladino/"
+								},
+								{
+									"id": "2",
+									"name": "Sergio Arenas",
+									"link": "https://www.linkedin.com/in/sergio-arenas/"
+								},
+								{
+									"id": "3",
+									"name": "Daniel González",
+									"link": "https://www.linkedin.com/in/od-gonzalez/"
+								}
+							]
+						},
+						{
+							"id": "2",
+							"category": "Backend",
+							"members": [
+								{
+									"id": "1",
+									"name": "John Higuita",
+									"link": "https://www.linkedin.com/in/john-higuita/"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"faq": {
+		"banner": {
+			"title": "¿Necesitas ayuda?",
+			"image": "umoob-isotype"
+		}
+	}
+}
