@@ -4,17 +4,40 @@ import { PokemonCard } from "@/components/pokemon/PokemonCard";
 import { PokemonListResponse, SmallPokemon } from "@/interfaces/pokemon-list";
 import { Card, Grid, Row, Text, Image } from "@nextui-org/react";
 import { GetStaticProps, NextPage } from "next";
-import React from "react";
+import React, { useState } from "react";
 
 interface Props {
   pokemons: SmallPokemon[];
 }
 const Home: NextPage<Props> = ({ pokemons }) => {
+  const [input, setInput] = React.useState("");
+
+  const handleOnChange = (event: any) => {
+    setInput(event.target.value);
+  };
+  const filteredPokemons = pokemons?.filter((pokemon) =>
+    pokemon.name.toLowerCase().includes(input?.toLowerCase())
+  );
   return (
     <Layout title="listado de Pokemons">
+      <input
+        onChange={handleOnChange}
+        style={{
+          borderRadius: "10px",
+          border: "1px grey",
+          color: "dark",
+          marginLeft: "5px",
+          paddingLeft: "10px",
+          marginTop: "15px",
+          marginBottom: "5px",
+          fontSize: "24px",
+        }}
+        placeholder="Search..."
+      />
       <Image src={"/img/pokemons.jpeg"} width={400} height={150} />
+
       <Grid.Container gap={2} justify="flex-start">
-        {pokemons?.map((pokemon) => (
+        {filteredPokemons?.map((pokemon) => (
           <PokemonCard key={pokemon.id} pokemon={pokemon} />
         ))}
       </Grid.Container>

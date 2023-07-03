@@ -8,11 +8,6 @@ const navBar: FC = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { theme } = useTheme();
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [input, setInput] = useState();
-  console.log("%c Line:12 🥛 input", "color:#4fff4B", input);
-  const handleOnChange = (event: any) => {
-    setInput(event.target.value);
-  };
 
   return (
     <div
@@ -42,19 +37,7 @@ const navBar: FC = () => {
           ókemon
         </Text>
       </NextLink>
-      <div style={{ margin: "18px" }}>
-        {" "}
-        <input
-          onChange={handleOnChange}
-          style={{
-            borderRadius: "10px",
-            border: "1px grey",
-            marginLeft: "5px",
-            paddingLeft: "10px",
-          }}
-          placeholder="Search..."
-        />
-      </div>
+      <div style={{ margin: "18px" }}> </div>
 
       <Spacer css={{ flex: 1 }} />
       <NextLink href="/favorites">
